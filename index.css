@@ -10,6 +10,21 @@ body {
     width: 100%;
 }
 
+/* Spinner */
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
 /* Navbar */
 
 .nav-bar {
@@ -461,7 +476,8 @@ footer ul li a:hover {
     font-size: 1.2rem;
     margin-top: 2rem;
 }
-.footer__socials :hover{
+
+.footer__socials :hover {
     color: #fb873f;
     transition: 0.3s;
 

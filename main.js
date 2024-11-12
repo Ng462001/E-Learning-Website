@@ -1,3 +1,16 @@
+// spinner
+
+var spinner = function () {
+    setTimeout(function () {
+        if ($('#spinner').length > 0) {
+            $('#spinner').removeClass('show');
+        }
+    }, 1);
+};
+spinner();
+
+// faqs
+
 const faqs = document.querySelectorAll('.faq');
 
 faqs.forEach(faq => {
@@ -15,6 +28,7 @@ faqs.forEach(faq => {
     })
 })
 
+// scroll animation
 
 document.addEventListener("DOMContentLoaded", () => {
     const elements = document.querySelectorAll(".animate-on-scroll");
