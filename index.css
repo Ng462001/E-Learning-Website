@@ -674,6 +674,11 @@ footer ul li a:hover {
         flex-direction: column;
     }
 
+    .navbar-nav{
+        gap:20px
+
+    }
+
     .carousel-caption {
         left: 0 !important;
     }
@@ -733,6 +738,10 @@ footer ul li a:hover {
         width: 100%;
         padding: 20px 20px;
         background-size: cover;
+    }
+    
+    .navbar-nav{
+        gap:20px
     }
 
     .main-body h5 {
@@ -798,6 +807,12 @@ footer ul li a:hover {
 
     .carousel-caption {
         left: 0 !important;
+    }
+
+    
+    .navbar-nav{
+        gap:20px
+
     }
 
     .faqs__container {
